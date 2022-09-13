@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "antiantihuman",
+  "version": "${version}",
+  "name": "AntiAntiHuman",
+  "description": "",
+  "authors": [
+    "CDFN"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/antiantihuman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.cdfn.antiantihuman.client.AntiantihumanClient"
+    ],
+    "main": [
+      "dev.cdfn.antiantihuman.Antiantihuman"
+    ]
+  },
+  "mixins": [
+    "antiantihuman.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
